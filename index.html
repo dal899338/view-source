@@ -1,118 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Expressive Typography</title>
+    <meta charset="utf-8">
+    <title>Web Manifesto</title>
+    <style>
+      /* CSS */
+     .main-title {
+        font-size: 3.5rem;
+         font-weight: 900;
+         line-height: 1.1;
+         margin-bottom: 50px;
+         letter-spacing: -1px;
+     }
+
+     .text-content {
+         flex: 1.2;
+     }
+
+     body {
+         font-family: 'Helvetica Neue';
+         background-color: #0b0b0a;
+         color: #ffffff; 
+     }
+
+     /* Header Style */
+     h1 {
+         font-family: 'Helevetica Neue';
+         font-weight: 700px;
+         margin-right: 400px;
+     }
+
+     /* Information */
+     h2 {
+         color: #C85F9B;
+     } 
+
+     .content-block {
+         margin-bottom: 40px;
+     }
+
+     /* Image sizing */
+     .image-container {
+        max-width: 300px;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+     }
+
+     .manifesto-image {
+        width: 100%;
+        height: auto;
+     }
+
+    </style>
 </head>
 
- <h1> WE ARE LOSING EMPATHY </h1>   
-    <a href="https://alexischateau.com/2020/02/17/does-social-media-build-or-erase-empathy/">Does the internet build or erase empathy?</a>
- 
-  <style> 
-    body {
-      font-family: helvetica, arial, sans-serif;
-      background-color: #928e5f;
-      color: #ecc4c4;
-      margin: 40px; 
-    }
 
-    div {
-      font-size: 45px;
-      font-weight: bold;
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-
-    h1 {
-      font-size: 100px;
-      letter-spacing: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    h2 {
-      font-size: 40px;
-      letter-spacing: 5px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-    
-     h3 {
-      font-size: 100px;
-      letter-spacing: 15px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    h4 {
-      font-size: 150px;
-      letter-spacing: 10px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    p1 {
-      font-size: 50px;
-      letter-spacing: 5px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-    
-    p2 {
-      font-size: 50px;
-      letter-spacing: 0px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-
-    p3 {
-      font-size: 100px;
-      letter-spacing: 35px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-    
-    p4 {
-      font-size: 50px;
-      letter-spacing: 5px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-
-    .offset {
-      margin-left: 50px;
-      transform: rotate(-5deg);
-    }
-
-    h1 span {
-      display: inline-block;
-      transform: rotate(12deg);
-    }
-  </style>
-</head>
+<section class="text-content">
+   <h1 class="main-title"> 
+      DOES THE INTERNET BUILD OR <span style= color:#C85F9B; font-weight: bold;>ERASE</span> EMPATHY? 
+   </h1>    
+</section>
 
 <body>
+  <section> 
 
-<h2> When you think about the web, it’s common knowledge for users to believe they are the center of everything. </h2>
-<p1> How could they not, when </p1>
-  
-<h3 class="big-bold">
-  <span>E</span><span>V</span><span>E</span><span>R</span><span>Y</span><span>T</span><span>H</span><span>I</span><span>N</span><span>G</span>
-</h3>
-  
-<div class="offset"> is catered towards us </div>
-<br>
-<p2> The web that was once used as a shared place for ideas and building is now </p2>
-<p3> isolating us from each other. </p3>
-<br>
-<p4> we have computers telling us </p4>
-  <div> exactly what we want </div>
-  <div> exactly what we want </div>
-  <div> exactly what we want </div>
-  <div> exactly what we want </div>
+    <div>
+        <h2>ARE WE LOSING EMPATHY?</h2>
+        <p1>Studies show social media influences human behavior. It is impacting how we shape relationships with ourselves and others. The internet pushes content that can lead to emotional numbing. We have algorithms and brands and computers telling us exactly what we want, not what we need. </p1>
+        <br>
+        <a href="https://alexischateau.com/2020/02/17/does-social-media-build-or-erase-empathy/" style="color: rgb(83, 156, 246);">Read the case study</a>
+    </div>
 
-<p4> we need to bring back the web as a shared place with ideas and community. </p4>
-<h4> WE NEED TO BRING BACK EMPATHY </h4>
+    <div>
+        <h2>YOU CAN HELP!</h2>
+        <p2>The web that was once used as a shared place for ideas and building is now isolating us from each other. People are shielded from physical space, only acknowledging the words that a person says rather than who and the character behind it. We can bring back empathy little by little. </p2>
+        <br>
+        <button>TAKE ACTION</button>
+    </div>
+
+    <div class="image-container">
+       <img src="Cursorimg.png" class="manifesto-image"> 
+    </div>
+
+    <div class="image-container">
+       <img src="Iphoneimg.png" class="manifesto-image"> 
+    </div>
+
+  </section>
 
 </body>
 </html>
