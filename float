@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Float</title>
+        <link rel="stylesheet" 
+        href="assets/css/styles.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+        <img src="assets/img/shootingstar.jpg" alt="Floating">
+
+            <h1>Floating in the sky, you see a bright light ahead</h1>
+            <p>The shooting star is hurdling towards another star, there's a chance you will crash. You look down and only have a few seconds to decide.</p>
+
+            <ul class="choices">
+                <li><a href="clouds.html">jump off to land safely on a cloud</a></li>
+                <li><a href="index.html"> jump off to land safely on the ground</a></li>    
+            </ul>
+        </div>
+    </body>
+    </html>
