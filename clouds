@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clouds</title>
+        <link rel="stylesheet" 
+        href="assets/css/styles.css">
+    </head>
+    
+<body>
+
+    <div class="container">
+    <img src="assets/img/clouds.jpg" alt="Clouds">
+
+    <h1> Souring through the clouds </h1>
+    <p>As you jump onto the clouds they feel soft. You see one begin to darken, signaling rain. </p>
+
+    <ul class="choices">
+        <li><a href="rain.html">go dancing in the rain</a></li>
+        <li><a href="index.html">return to the ground</li>
+
+    </ul>
+</div>
+
+</body>
+</html>
