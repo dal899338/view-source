@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Rain</title>
+        <link rel="stylesheet" 
+        href="assets/css/styles.css">
+    </head>
+
+<body>
+        <div class="container">
+        <img src="assets/img/rain.jpg" alt="Rain">
+
+            <h1>The dark clouds indicate a dangerous storm</h1>
+            <p>You feel a sharp vibration underneath you, and realize it's thunder and lightning crackling through the sky. It's likely to worsen with time.</p>
+
+            <ul class="choices">
+                <li><a href="stars.html">jump off to land safely on a star</a></li>
+                <li><a href="index.html"> jump off to land safely on the ground</a></li>    
+            </ul>
+        </div>
+ </body>
+</html>
