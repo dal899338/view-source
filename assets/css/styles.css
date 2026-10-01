@@ -1,0 +1,38 @@
+/* css style */
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color:black;
+        color: #e0e0e0;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.8;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 600px;
+        width: 100%;
+        animation: fadeIn 1.2 ease-in-our;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        font-weight: normal;
+        color: #ffffff;
+    }
+
+    p {
+        font-size: 0.95rem;
+        color: #b0b0b0;
+    }
+
+    /* Navigation */
+    ul.choices li a {
+        color: #888888;
+        font-size: 0.9rem;
+    }
