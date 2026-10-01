@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>Stars</title>
+        <link rel="stylesheet" 
+        href="assets/css/styles.css">
+    </head>
+
+<body>
+
+        <div class="container">
+        <img src="assets/img/stars.jpeg" alt="Stars">
+
+        <h1>A shooting star</h1>
+        <p> There's a shooting star you land on, it rocket launches you across the sky. You look around in amazement, realizing how high up you are.</p>
+
+            <ul class="choices">
+                <li><a href="float.html"> continue floating on the star </a></li>
+                <li><a href="index.html"> fall back safely on the ground </a></li>
+
+            </ul>
+        </div>
+</body>
+ </html>
