@@ -1,2 +1,2 @@
 # view-source
-week 2 assignment
+Project 02: Hypertext Narrative
